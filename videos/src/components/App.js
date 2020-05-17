@@ -4,7 +4,7 @@ import youtube from '../api/youtube';
 import  VideoList from './VideoList';
 import VideoDetail from './VideoDetail';
 
-const KEY = 'AIzaSyCseMhBQGO4MAuH1cG1pzfSbG4T4-YJ89U';
+const KEY = '';
 
     
 const App = ()=>{
