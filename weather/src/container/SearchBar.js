@@ -13,7 +13,6 @@ const SearchBar = (props) =>{
     const onFormSubmit = (event)=>{
         event.preventDefault();
         props.fetchWeather(term);
-        setTerm('');
     }
     return (
         <form className="input-group" onSubmit={onFormSubmit}>
